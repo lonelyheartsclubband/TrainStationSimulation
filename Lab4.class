@@ -1,0 +1,14 @@
+/*
+ * Wildcats
+ * 
+ * Contains	the	main method	that constructs	a trainSimulation object, starts the
+ * simulation, and prints out some statistics.
+ */
+
+public class Lab4
+{
+	public static void main(String[] args){
+		TrainSimulation trainSim = new TrainSimulation();
+		trainSim.start();
+	}
+}
